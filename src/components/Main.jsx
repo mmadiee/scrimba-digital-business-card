@@ -7,8 +7,8 @@ export default function Main() {
       </div>
       <div>
         <h4>About</h4>
-        <p>Hi! I&apos;m a web developer based in Manila, PH with a strong background in 
-            both in front-end and back-end development and a passion for 
+        <p>Hi! I&apos;m a web developer based in Manila, PH with a strong background
+            in full-stack development and a passion for 
             creating efficient, user-friendly web systems. </p>
         <p><strong>Let&apos;s connect!</strong></p>
       </div>
