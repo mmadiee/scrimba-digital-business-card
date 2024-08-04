@@ -26,3 +26,28 @@ h2, p , h4{
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
+
+button {
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.gitHub {
+    background-color: #77bdfb;
+}
+
+.website {
+    background-color: #F39237;
+}
+
+.gitHub:hover {
+    background-color: hsl(208, 94%, 60%);
+}
+
+.website:hover {
+    background-color: hsl(29, 89%, 48%);
+}

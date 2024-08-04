@@ -2,8 +2,8 @@ export default function Main() {
   return (
     <>
       <div className="button-links">
-        <button>GitHub</button>
-        <button>Website</button>
+        <a href="https://github.com/mmadiee" target="_blank"><button className="gitHub">GitHub</button></a>
+        <a href="https://mmadiee.github.io/odin-landing-page/" target="_blank"><button className="website">Website</button></a>
       </div>
       <div>
         <h4>About</h4>
