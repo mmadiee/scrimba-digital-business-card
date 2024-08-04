@@ -1,7 +1,7 @@
 export default function Title() {
     return (
         <>
-            <h1>Demi Mae Manipolo</h1>
+            <h2>Demi Manipolo</h2>
             <p>Web Developer</p>
         </>
     )
