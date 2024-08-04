@@ -2,12 +2,13 @@
     width: 250px;
     height: 100%;
     border-radius: 5px;
-    border: 2px solid black;
+    background-color: #FBFEF9;
 }
 
 .profile {
     width: 250px;
     height: 250px;
+    border-radius: 3px 3px 0 0;
 }
 
 h2, p , h4{
