@@ -16,7 +16,13 @@
     border-radius: 50%;
 }
 
+.title {
+    color: #BF1363;
+    font-weight: 400;
+    text-align: center;
+}
+
 h2, p , h4{
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+}   
