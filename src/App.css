@@ -34,9 +34,18 @@ button {
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 10px;
   transition: 0.3s ease-in-out;
   font-size: larger;
+  margin: 8px;
+}
+
+.button-links {
+    display: flex;
+    justify-content: center;
+}
+
+.gitHub, .website {
+    background-color: #f0f1ef;
 }
 
 .gitHub:hover {
@@ -66,8 +75,7 @@ button {
 
 .email,
 .linked-in {
-  margin: 10px;
-  color: #341322;
+  color: #1a0a11;
   background-color: transparent;
 }
 
