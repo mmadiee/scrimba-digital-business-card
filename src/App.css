@@ -1,101 +1,91 @@
-.card{
-    width: 275px;
-    height: 100%;
-    border-radius: 5px;
-    background-color: #FBFEF9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.card {
+  width: 275px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #fbfef9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .profile {
-    padding: 10px 10px 0 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  padding: 10px 10px 0 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .title {
-    color: #BF1363;
-    font-weight: 400;
-    text-align: center;
+  color: #bf1363;
+  font-weight: 400;
+  text-align: center;
 }
 
-h2, p , h4{
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}   
+h2,
+p,
+h4 {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 button {
-    border: 0;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: 0.3s ease-in-out;
-}
-
-.gitHub {
-    background-color: #77bdfb;
-}
-
-.website {
-    background-color: #F39237;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  font-size: larger;
 }
 
 .gitHub:hover {
-    background-color: hsl(208, 94%, 60%);
+  background-color: #77bdfb;
 }
 
 .website:hover {
-    background-color: hsl(29, 89%, 48%);
+  background-color: #f39237;
 }
 
 .about {
-    margin: 0 15px 0 15px ;
+  margin: 0 15px 0 15px;
 }
 
 .about h4 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .about p {
-    font-size: 0.85rem;
-    text-align: justify;
+  font-size: 0.85rem;
+  text-align: justify;
 }
 
 .about p:last-child {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.email {
-    background-color: #EA4335;
-    color: white;
-}
-
+.email,
 .linked-in {
-    background-color: #0077B5;
-    color: white;
-}
-
-.email, .linked-in {
-    margin: 10px;
+  margin: 10px;
+  color: #341322;
+  background-color: transparent;
 }
 
 .email:hover {
-    background-color: hsl(5, 81%, 47%);
+  background-color: #ea4335;
+  color: white;
 }
 
 .linked-in:hover {
-    background-color: hsl(201, 100%, 50%);
+  background-color: #0077b5;
+  color: white;
 }
 
 footer {
-    width: 100%;
-    background-color: #BF1363;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 0px 5px 5px;
+  width: 100%;
+  background-color: #bf1363;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 5px 5px;
 }
