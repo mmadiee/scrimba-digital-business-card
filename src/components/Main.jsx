@@ -1,9 +1,13 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons" ;
+
 export default function Main() {
   return (
     <>
       <div className="button-links">
-        <a href="https://github.com/mmadiee" target="_blank"><button className="gitHub">GitHub</button></a>
-        <a href="https://mmadiee.github.io/odin-landing-page/" target="_blank"><button className="website">Website</button></a>
+        <a href="https://github.com/mmadiee" target="_blank"><button className="gitHub"><FontAwesomeIcon icon={faGithub} /></button></a>
+        <a href="https://mmadiee.github.io/odin-landing-page/" target="_blank"><button className="website"><FontAwesomeIcon icon={faGlobe} /></button></a>
       </div>
       <div className="about">
         <h4>About me</h4>
