@@ -51,3 +51,21 @@ button {
 .website:hover {
     background-color: hsl(29, 89%, 48%);
 }
+
+.about {
+    margin: 15px 15px 0 15px ;
+}
+
+.about h4 {
+    margin-bottom: 5px;
+}
+
+.about p {
+    font-size: 0.85rem;
+    text-align: justify;
+}
+
+.about p:last-child {
+    margin-top: 10px;
+    text-align: center;
+}
